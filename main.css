@@ -21,7 +21,39 @@ body {
 }
 
 #name {
+    color: #690000;
     font-family: Balthazar, serif;
-    font-size: 64px;
     font-weight: normal;
+    font-size: 96px;
+    line-height: 96px;
+    height: 96px;
+    width: 222px;
+    overflow: hidden;
+}
+
+#name {
+    position: relative;
+}
+
+#constant,
+#blink {
+    position: absolute;
+    left: 0;
+}
+
+#blink {
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes blink {
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
 }
