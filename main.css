@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Balthazar);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+}
+
+#splash {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    font-family: Balthazar, serif;
+    font-size: 64px;
+    font-weight: normal;
+}
